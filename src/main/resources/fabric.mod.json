@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "cat-on-chest",
+	"version": "1.0.0",
+	"name": "CatOnChest",
+	"description": "Open chests even when a cat is on top.",
+	"authors": [
+		"Kim-Lan"
+	],
+	"contact": {
+		"homepage": "https://github.com/Kim-Lan",
+		"sources": "https://github.com/Kim-Lan/cat-on-chest"
+	},
+	"license": "MIT",
+	"icon": "assets/cat-on-chest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kimlan.catonchest.CatOnChest"
+		]
+	},
+	"mixins": [
+		"cat-on-chest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
